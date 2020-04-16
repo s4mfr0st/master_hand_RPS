@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+}
+
+#gameContainer {
+   background: linear-gradient(-0deg, #74B3CE, #172A3A);
+   border-style: solid;
+   border-color: style;
+   max-width: 60%;
+   left: 5px;
+   right: 5px;
+   text-align: center;
+   padding: 10px;
+}
+
+#playerBox {
+    left: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#computerBox {
+    right: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#newGame {
+    padding: 10px;
+    width: 100px;
+}
+
+.card {
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    border-radius: 500px;
+    background: white;
+}
+
+h1 { 
+    width: 70%;
+    background: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Kabel, serif;
+    font-weight: 1000;
+    font-size: 300%;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+#cardBox {
+   max-width: 100%;
+   height: 250px;
+   background: rgba(0,0,0,0.0);
+   column-count: 2;
+   padding: 10px;
+   text-align: center;
+}
+
+#buttonContainer {
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    background: white;
+    width: 70%;
+    height: auto;
+    display: inline-block;
+}
+
+button {
+    padding: 10px;
+    height: 75px;
+    width: 75px;
+    background: #004346;
+    color: white;
+}
+
+button:hover {
+    padding: 10px;
+    height: 75px;
+    width: 75px;
+    background: #577590;
+}
+
+#player-self-box {
+    float: left;
+}
+
+#computer-self-box {
+    float: right;
+}
+
+.selfBox {
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-color: black;
+    background: white;
+}
